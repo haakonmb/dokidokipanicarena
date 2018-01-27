@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
+    public const int maxHealth = 100;
+    public int currentHealth = maxHealth;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +16,15 @@ public class Health : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void TakeDamage (int amount) {
+        currentHealth -= amount;
+        if (currentHealth <= 0) {
+            currentHealth = 0;
+            Debug.Log("Dead!");
+        }
+
+        Debug.Log("Took " + amount + "damage!");
+        Debug.Log(currentHealth + " health left");
+    }
 }
