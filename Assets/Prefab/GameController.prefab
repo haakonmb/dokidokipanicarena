@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4287300118747764}
   - component: {fileID: 82343231421279670}
   - component: {fileID: 114638198059304252}
+  - component: {fileID: 114057288899496436}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -151,6 +152,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114057288899496436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104295558673566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d823777f7c96847be72aaf5c7260fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114638198059304252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,5 +198,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe4e8cb8bac0d494a97511a582de77c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GaOb: {fileID: 1246241461103506, guid: b5e912148df47614087c80b879ad2fcf, type: 2}
+  GaOb: {fileID: 1390335344194864, guid: a7035cfe72a604f659128c0f333ea827, type: 2}
   initialSpawnTimer: 1
