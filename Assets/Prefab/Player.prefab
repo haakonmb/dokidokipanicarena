@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
-  - component: {fileID: 114866856461121462}
   - component: {fileID: 114306027274367058}
   m_Layer: 8
   m_Name: Player
@@ -33,6 +32,7 @@ GameObject:
   - component: {fileID: 8100000}
   - component: {fileID: 12474086}
   - component: {fileID: 82062844228944912}
+  - component: {fileID: 114565038400700618}
   m_Layer: 8
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -436,13 +436,14 @@ MonoBehaviour:
   maxHealth: 100
   currentHealthLabel: {fileID: 0}
   deadScreen: {fileID: 0}
+  healthSlider: {fileID: 0}
   isDead: 0
---- !u!114 &114866856461121462
+--- !u!114 &114565038400700618
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f0ea47f9d61ecc46bf4edbc0ec4cb1c, type: 3}

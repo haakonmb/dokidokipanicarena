@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public int maxHealth;
     public Text currentHealthLabel;
     public Image deadScreen;
+    public Slider healthSlider;
+
 
     private int currentHealth;
     public bool isDead;
@@ -25,7 +27,7 @@ public class Player : MonoBehaviour
     {
         currentHealthLabel.text = currentHealth.ToString();
         deadScreen.gameObject.SetActive(isDead);
-
+        healthSlider.value = currentHealth;
     }
 
     public void AlterHealth(int amount)

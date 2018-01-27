@@ -121,6 +121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 100
+  isBase: 0
+  currentHealthLabel: {fileID: 0}
+  deadScreen: {fileID: 0}
+  healthSlider: {fileID: 0}
+  HealthCog: {fileID: 1544654740154256, guid: 4b2c985d388cc4c15ac01681b428d7d1, type: 2}
 --- !u!195 &195614395079029636
 NavMeshAgent:
   m_ObjectHideFlags: 1
