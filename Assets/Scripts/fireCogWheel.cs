@@ -33,7 +33,7 @@ public class fireCogWheel : MonoBehaviour {
                 Debug.Log("Good!");
             } else {
                 //Her kan skade på spille kommenteres ut
-                GetComponent<Player>().AlterHealth(-10);
+                GetComponentInParent<Player>().AlterHealth(-10);
                 Debug.Log("Bad!");
             }
         }
