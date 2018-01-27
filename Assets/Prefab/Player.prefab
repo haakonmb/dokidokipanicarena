@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114306027274367058}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,7 +355,6 @@ MonoBehaviour:
   maxHealth: 100
   currentHealthLabel: {fileID: 0}
   deadScreen: {fileID: 0}
-  healthSlider: {fileID: 0}
   isDead: 0
 --- !u!114 &114866856461121462
 MonoBehaviour:
