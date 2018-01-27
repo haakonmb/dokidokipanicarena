@@ -16,26 +16,38 @@
 
 using UnityEngine;
 using System;
+using System.Collections;
 
-public class Beat : MonoBehaviour
-{
+public class Beat : MonoBehaviour {
+    private AudioProcessor processor;
+    private ArrayList beats = new ArrayList();
 
     void Start()
     {
         //Select the instance of AudioProcessor and pass a reference
         //to this object
-        AudioProcessor processor = FindObjectOfType<AudioProcessor>();
-        processor.onBeat.AddListener(onOnbeatDetected);
+        processor = FindObjectOfType<AudioProcessor>();
+        processor.onBeat.AddListener(OnbeatDetected);
         processor.onSpectrum.AddListener(onSpectrum);
     }
 
     //this event will be called every time a beat is detected.
     //Change the threshold parameter in the inspector
     //to adjust the sensitivity
-    void onOnbeatDetected()
+    void OnbeatDetected()
     {
-        Debug.Log("Beat!!!");
+        traverse(beats);
+     //   Debug.Log("Beat!!!");
     }
+
+    private void traverse(ArrayList beats)
+    {
+        foreach(BeatListener b in beats)
+        {
+            b.OnNextBeat();
+
+        }
+     }
 
     //This event will be called every frame while music is playing
     void onSpectrum(float[] spectrum)
@@ -50,4 +62,19 @@ public class Beat : MonoBehaviour
             Debug.DrawLine(start, end);
         }
     }
+
+
+    public void AddListener(BeatListener listener)
+    {
+        beats.Add(listener);
+    }
+
+
+
+}
+
+public interface BeatListener
+{
+    void OnNextBeat();
+
 }
