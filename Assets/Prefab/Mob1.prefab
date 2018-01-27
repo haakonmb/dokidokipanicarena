@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4675908055335842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_interface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4218451016779034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4203936025680796}
   - component: {fileID: 33601343347516056}
   - component: {fileID: 23949215375417372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: body_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4157822703752934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_endaffector1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4494065680176848}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4464629974859950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_fkcontrol3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4301158927746912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4250797428519062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hup_root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4689066243070978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_fkcontrol1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4227251635748490}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4506463368978336}
   - component: {fileID: 33748959251924872}
   - component: {fileID: 23049888920214972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_lower_geo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4039218817144132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_root2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 4993263446719214}
   - component: {fileID: 33222573895912274}
   - component: {fileID: 23213671043550756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_feet_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4296101990379348}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4248407846148028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_root1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4159961596910570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_boneunit2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4006244856217678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_lower1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4858440734196206}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_fkcontrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,8 @@ GameObject:
   - component: {fileID: 195323672229540850}
   - component: {fileID: 114866988394371068}
   - component: {fileID: 114812140160322636}
-  m_Layer: 0
+  - component: {fileID: 114955629382619094}
+  m_Layer: 10
   m_Name: Mob1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -316,7 +317,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4065902427465962}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_endcontrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +332,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4821599129213136}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +347,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4159649210812532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +362,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4982613429374580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_fkcontrol2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +377,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4375350077926866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_knee_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +392,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4383528754796202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_twistcontrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +407,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4567963402640164}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bone2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +422,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4932010123496524}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_endcontrol1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +439,7 @@ GameObject:
   - component: {fileID: 4570888223151772}
   - component: {fileID: 33517733936587254}
   - component: {fileID: 23825827768056880}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_feet_geo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +454,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4586801047491206}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_feet_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +471,7 @@ GameObject:
   - component: {fileID: 4068939186213404}
   - component: {fileID: 33337109464160018}
   - component: {fileID: 23530091076403178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_upper_geo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +486,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4781585951287962}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_twistcontrol1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +501,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4073918673025826}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bone1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +516,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4469246133635938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_endaffector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +531,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4726330413467166}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: head_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +546,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4607915504671222}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: body_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +561,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4027342381561294}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_upper1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +576,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4710130224204524}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_boneunit3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +591,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4830694856334496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_twistaffector1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +608,7 @@ GameObject:
   - component: {fileID: 4248097947025764}
   - component: {fileID: 33889667946539370}
   - component: {fileID: 23427391790446710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_upper_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,7 +623,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4861610866039266}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_twistaffector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +638,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4610908654029372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_boneunit1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -654,7 +655,7 @@ GameObject:
   - component: {fileID: 4721631842453082}
   - component: {fileID: 33797491238558782}
   - component: {fileID: 23020694114651172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: head_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +672,7 @@ GameObject:
   - component: {fileID: 4486108274932736}
   - component: {fileID: 33374495460039574}
   - component: {fileID: 23881433886792782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_lower_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +687,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4369162257147332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: L_foot_feet1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,7 +703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4246998205682634}
   - component: {fileID: 95725034539848562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mob_nr_1_anim_walk_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -717,7 +718,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4448151168184700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_boneunit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +733,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4135302080871826}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: foot_interface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1821,6 +1822,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27256f7b1084a084a9cc09ad3fc94719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114955629382619094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390335344194864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d42c27ada10946d48dcc2728c2346c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 54463294481845950, guid: f698442a1672b47cc913be7cd2903959, type: 2}
+  frequency: 0.5
 --- !u!195 &195323672229540850
 NavMeshAgent:
   m_ObjectHideFlags: 1

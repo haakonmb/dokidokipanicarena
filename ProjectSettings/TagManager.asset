@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - DeathTrigger
+  - Base
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - 
   - Player
   - PlayerAmmunition
-  - 
-  - 
+  - Enemy
+  - EnemyAttack
   - 
   - 
   - 
