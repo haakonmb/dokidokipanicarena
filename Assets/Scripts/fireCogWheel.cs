@@ -23,9 +23,9 @@ public class fireCogWheel : MonoBehaviour {
             Rigidbody cw = Instantiate(cogwheel, transform.position, Quaternion.identity);
             cw.GetComponent<Ammunition_CogWheel>().SetDamage(damage);
 
-            bool onBeat = GetComponent<DokiDoki>().CheckBeat();
+            // bool onBeat = GetComponent<DokiDoki>().CheckBeat();
             //if (!onBeat) GetComponent<Player>().AlterHealth(-10);
-            cw.GetComponent<Ammunition_CogWheel>().onBeat = onBeat;
+            // cw.GetComponent<Ammunition_CogWheel>().onBeat = onBeat;
 
             cw.AddForce(transform.forward * 2000);
             damage = 10; 
