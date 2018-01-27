@@ -756,6 +756,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40d3e46766f8248ff8952eca3949dae9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1363143608
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 22.481472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.5988617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!114 &1377117799 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114450975882733644, guid: 517dcc36a4af74b42a1efd32c2a8233e,

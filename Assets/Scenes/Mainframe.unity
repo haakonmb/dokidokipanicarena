@@ -402,6 +402,7 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 884b1fb19ac52134781bd0c4f58c87a5, type: 2}
   m_IsPrefabParent: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &598089486
 =======
 --- !u!1 &683686885
@@ -494,14 +495,13 @@ CapsuleCollider:
 =======
 --- !u!65 &683686887
 BoxCollider:
+=======
+--- !u!1001 &726136335
+Prefab:
+>>>>>>> magsti
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 683686885}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &683686888
@@ -552,6 +552,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4793f0bbbc5194c9a99f729c379f2a83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+>>>>>>> magsti
+=======
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 22.481472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.5988617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426030748097882, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b2fdfd178b790414f8fec91c5c7fccb1, type: 2}
+  m_IsPrefabParent: 0
 >>>>>>> magsti
 --- !u!114 &813734509 stripped
 MonoBehaviour:
