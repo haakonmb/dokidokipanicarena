@@ -22,9 +22,10 @@ public class Health : MonoBehaviour {
         if (currentHealth <= 0) {
             currentHealth = 0;
             Debug.Log("Dead!");
+            Destroy(gameObject);
         }
 
-        Debug.Log("Took " + amount + "damage!");
+        Debug.Log("Took " + amount + " damage!");
         Debug.Log(currentHealth + " health left");
     }
 }
