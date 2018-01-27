@@ -108,3 +108,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cogwheel: {fileID: 54409864254857670, guid: 1fd745285355c924cad0be53f87dc7a7, type: 2}
+  gamecontroller: {fileID: 1357981178827782, guid: 884b1fb19ac52134781bd0c4f58c87a5,
+    type: 2}
