@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class fireCogWheel : MonoBehaviour {
     public Rigidbody cogwheel;
+    private int damage = 10;
 
     // Use this for initialization
-    void Start () {
+    private void Start () {
 		
 	}
 
     // Update is called once per frame
-    void Update() {
-        if (Input.GetButtonDown("Fire1")) {
+    private void Update() {
+        if (Input.GetButton("Fire1")) {
+            damage++;
+        }
+
+        if(Input.GetButtonUp("Fire1")) {
             Rigidbody cw = Instantiate(cogwheel, transform.position, Quaternion.identity);
+            cw.GetComponent<Ammunition_CogWheel>().SetDamage(damage); 
             cw.AddForce(transform.forward * 2000);
+            damage = 10; 
         }
     }
 }

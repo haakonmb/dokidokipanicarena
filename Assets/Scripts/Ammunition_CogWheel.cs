@@ -7,7 +7,7 @@ public class Ammunition_CogWheel : MonoBehaviour {
     private Rigidbody rb;
     private bool onBeat = false;
     private float countdown = 5;
-    private int damage = 50;
+    private int damage = 10;
 
     // Use this for initialization
     void Start () {
@@ -32,5 +32,9 @@ public class Ammunition_CogWheel : MonoBehaviour {
                 Destroy(gameObject);
             }
         }
+    }
+
+    public void SetDamage(int dmg) {
+        damage = dmg; 
     }
 }
