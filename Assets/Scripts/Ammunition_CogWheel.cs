@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CogWheel : MonoBehaviour {
+public class Ammunition_CogWheel : MonoBehaviour {
 
     private Rigidbody rb;
 
