@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Ammunition_CogWheel : MonoBehaviour {
 
+    public bool onBeat = false;
+
     private Rigidbody rb;
-    private bool onBeat = false;
     private float countdown = 5;
     private int damage = 10;
 
@@ -27,7 +28,7 @@ public class Ammunition_CogWheel : MonoBehaviour {
             collision.gameObject.GetComponent<Health>().TakeDamage(damage);
 
             if (onBeat) {
-
+                // Her kan retur eller bounce av cogwheel scriptes
             } else {
                 Destroy(gameObject);
             }
