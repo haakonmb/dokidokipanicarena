@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 23013424177174832}
   - component: {fileID: 54409864254857670}
   - component: {fileID: 114345279413118964}
-  m_Layer: 0
-  m_Name: CogWheel
+  m_Layer: 9
+  m_Name: Ammunition_CogWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36ac418347fc5b4ca2720f5f494199d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
