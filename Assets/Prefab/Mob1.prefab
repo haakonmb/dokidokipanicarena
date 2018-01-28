@@ -302,7 +302,6 @@ GameObject:
   - component: {fileID: 114866988394371068}
   - component: {fileID: 114812140160322636}
   - component: {fileID: 114955629382619094}
-  - component: {fileID: 114773969813259238}
   m_Layer: 10
   m_Name: Mob1
   m_TagString: Enemy
@@ -1796,17 +1795,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114773969813259238
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1390335344194864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae51c70c4fd2d7f49936e25fe7573ebf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114812140160322636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1824,7 +1812,6 @@ MonoBehaviour:
   deadScreen: {fileID: 0}
   healthSlider: {fileID: 0}
   HealthCog: {fileID: 1544654740154256, guid: 4b2c985d388cc4c15ac01681b428d7d1, type: 2}
-  text: {fileID: 0}
   scoreValue: 10
 --- !u!114 &114866988394371068
 MonoBehaviour:

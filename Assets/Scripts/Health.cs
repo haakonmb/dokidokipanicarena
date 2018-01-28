@@ -13,7 +13,6 @@ public class Health : MonoBehaviour {
     public Slider healthSlider;
     bool isDead;
     public GameObject HealthCog;
-    public Text text;
     public int scoreValue = 10;
     
 

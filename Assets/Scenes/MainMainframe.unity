@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -215,6 +215,8 @@ MonoBehaviour:
   currentHealthLabel: {fileID: 1551577245}
   deadScreen: {fileID: 813734509}
   healthSlider: {fileID: 1377117799}
+  HealthCog: {fileID: 0}
+  scoreValue: 10
 --- !u!4 &152635162 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 27ff9f2925d5bdc4b918a4fc6d7f7b41, type: 2}
@@ -373,6 +375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  RotateAmount: {x: 0, y: 0, z: 0}
 --- !u!1001 &569567313
 Prefab:
   m_ObjectHideFlags: 0
@@ -490,7 +493,13 @@ Prefab:
       propertyPath: m_Name
       value: ArenaCollider
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114101144699816500, guid: f44a45f3b4a484b7e92a99d1d3f8fc8b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114101144699816500, guid: f44a45f3b4a484b7e92a99d1d3f8fc8b, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f44a45f3b4a484b7e92a99d1d3f8fc8b, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1049675767
@@ -736,22 +745,27 @@ Prefab:
     - target: {fileID: 224772277062192074, guid: 517dcc36a4af74b42a1efd32c2a8233e,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224772277062192074, guid: 517dcc36a4af74b42a1efd32c2a8233e,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224729386351281068, guid: 517dcc36a4af74b42a1efd32c2a8233e,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224729386351281068, guid: 517dcc36a4af74b42a1efd32c2a8233e,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224791113379583436, guid: 517dcc36a4af74b42a1efd32c2a8233e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 517dcc36a4af74b42a1efd32c2a8233e, type: 2}
